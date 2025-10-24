@@ -1,0 +1,14 @@
+<resources>
+    <!-- App theme (keep your existing main theme) -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- your main theme customizations -->
+    </style>
+
+    <!-- Splash theme: fullscreen, status bar tinted to match gradient -->
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
